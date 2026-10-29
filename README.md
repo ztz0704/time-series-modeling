@@ -77,7 +77,7 @@ time-series-modeling/
     └── test_split.py
 ```
 
-课程目前有 15 个脚本：`day_03` 分成三个频域实验，`week_02` 从 `day_08` 跳到 `day_11`，当前没有 `day_09` 和 `day_10` 文件。
+课程按 `week_01` 和 `week_02` 组织，`day_03` 包含频域分析、谱比较和 Welch 谱估计三个实验。
 
 ## 学习入口
 
@@ -131,4 +131,4 @@ Series F 的数据直接写在对应课程脚本中。Series G 使用仓库内�
 | Series G 基线指标 | [series_g_baseline_metrics.csv](results/tables/series_g_baseline_metrics.csv) |
 | Series G 预测对比图 | [series_g_baseline_forecasts.png](results/figures/series_g_baseline_forecasts.png) |
 
-`results/` 已保存基线比较、Series G 和频域分析的图表，可直接查看。`findings.md` 中的数据概况和指标表仍有待填写的字段，已有指标数值见上面的 CSV 文件。
+`results/` 已保存基线比较、Series G 和频域分析的图表，可直接查看。案例中的数据变换、季节性和预测误差讨论见 [findings.md](case_studies/box_jenkins/series_g/findings.md)。
