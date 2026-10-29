@@ -1,0 +1,27 @@
+[project]
+name = "time-series"
+version = "0.1.0"
+description = "A learning workspace for classical time-series analysis, forecasting, and diagnostics."
+readme = "README.md"
+authors = [
+    { name = "Xiaozongzi", email = "ztz@pku.edu.cn" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.1",
+    "pandas>=3.0.3",
+    "statsmodels>=0.14.6",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.26,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

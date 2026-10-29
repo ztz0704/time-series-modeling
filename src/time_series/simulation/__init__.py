@@ -1,0 +1,1 @@
+"""Synthetic time-series generators."""
